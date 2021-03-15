@@ -8,7 +8,8 @@
 	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/libs.min.css" />
 	<link rel="stylesheet" href="css/style.min.css" />
-	<script src="script.js" defer></script>
+	<script src="scripts/libs.min.js" defer></script>
+	<script src="scripts/main.js" defer></script>
 	<title>Province</title>
 </head>
 
@@ -113,16 +114,16 @@
 			</div>
 			<div class="vine-inner">
 				<div class="vine-images">
-					<a data-fslightbox="vine" href="images/vine-img1max.jpg" data-type="image">
+					<a data-fslightbox="vine" href="images/vine-img1.jpg" data-type="image">
 						<img src="images/vine-img1.jpg" alt="" class="vine-img1 vine-img-item">
 					</a>
-					<a data-fslightbox="vine" href="images/vine-img2max.jpg" data-type="image">
+					<a data-fslightbox="vine" href="images/vine-img2.jpg" data-type="image">
 						<img src="images/vine-img2.jpg" alt="" class="vine-img2 vine-img-item">
 					</a>
-					<a data-fslightbox="vine" href="images/vine-img3max.jpg" data-type="image">
+					<a data-fslightbox="vine" href="images/vine-img3.jpg" data-type="image">
 						<img src="images/vine-img3.jpg" alt="" class="vine-img3 vine-img-item">
 					</a>
-					<a data-fslightbox="vine" href="images/vine-img4max.jpg" data-type="image">
+					<a data-fslightbox="vine" href="images/vine-img4.jpg" data-type="image">
 						<img src="images/vine-img4.jpg" alt="" class="vine-img4 vine-img-item">
 					</a>
 				</div>
@@ -199,31 +200,31 @@
 			<h3 class="moodboard-title title">MoodBoard</h3>
 			<div class="moodboard-images">
 				<div class="moodboard-images-box1">
-					<a data-fslightbox="moonboard" href="images/box1-img1max.jpg" data-type="image">
-						<img src="images/box1-img1.jpg" alt="" class="moodboard-box1-img1 moodboard-box1-item">
+					<a data-fslightbox="moonboard" href="images/box-img1.jpg" data-type="image">
+						<img src="images/box-img1.jpg" alt="" class="moodboard-box1-img1 moodboard-box1-item">
 					</a>
-					<a data-fslightbox="moonboard" href="images/box1-img2max.jpg" data-type="image">
-						<img src="images/box1-img2.jpg" alt="" class="moodboard-box1-img2 moodboard-box1-item">
+					<a data-fslightbox="moonboard" href="images/box-img2.jpg" data-type="image">
+						<img src="images/box-img2.jpg" alt="" class="moodboard-box1-img2 moodboard-box1-item">
 					</a>
-					<a data-fslightbox="moonboard" href="images/box1-img3max.jpg" data-type="image">
-						<img src="images/box1-img3.jpg" alt="" class="moodboard-box1-img3 moodboard-box1-item">
+					<a data-fslightbox="moonboard" href="images/box-img3.jpg" data-type="image">
+						<img src="images/box-img3.jpg" alt="" class="moodboard-box1-img3 moodboard-box1-item">
 					</a>
-					<a data-fslightbox="moonboard" href="images/box1-img4max.jpg" data-type="image">
-						<img src="images/box1-img4.jpg" alt="" class="moodboard-box1-img4 moodboard-box1-item">
+					<a data-fslightbox="moonboard" href="images/box-img4.jpg" data-type="image">
+						<img src="images/box-img4.jpg" alt="" class="moodboard-box1-img4 moodboard-box1-item">
 					</a>
 				</div>
 				<div class="moodboard-images-box2">
-					<a data-fslightbox="moonboard" href="images/box2-img1max.jpg" data-type="image">
-						<img src="images/box2-img1.jpg" alt="" class="moodboard-box2-img1 moodboard-box2-item">
+					<a data-fslightbox="moonboard" href="images/box-img5.jpg" data-type="image">
+						<img src="images/box-img5.jpg" alt="" class="moodboard-box2-img1 moodboard-box2-item">
 					</a>
-					<a data-fslightbox="moonboard" href="images/box2-img2max.jpg" data-type="image">
-						<img src="images/box2-img2.jpg" alt="" class="moodboard-box2-img2 moodboard-box2-item">
+					<a data-fslightbox="moonboard" href="images/box-img6.jpg" data-type="image">
+						<img src="images/box-img6.jpg" alt="" class="moodboard-box2-img2 moodboard-box2-item">
 					</a>
-					<a data-fslightbox="moonboard" href="images/box2-img3max.jpg" data-type="image">
-						<img src="images/box2-img3.jpg" alt="" class="moodboard-box2-img3 moodboard-box2-item">
+					<a data-fslightbox="moonboard" href="images/box-img7.jpg" data-type="image">
+						<img src="images/box-img7.jpg" alt="" class="moodboard-box2-img3 moodboard-box2-item">
 					</a>
-					<a data-fslightbox="moonboard" href="images/box2-img4max.jpg" data-type="image">
-						<img src="images/box2-img4.jpg" alt="" class="moodboard-box2-img4 moodboard-box2-item">
+					<a data-fslightbox="moonboard" href="images/box-img8.jpg" data-type="image">
+						<img src="images/box-img8.jpg" alt="" class="moodboard-box2-img4 moodboard-box2-item">
 					</a>
 				</div>
 			</div>
@@ -267,6 +268,12 @@
 					<a href="tel:+375291234567" class="footer-phone">+375291234567</a>
 					<div class="footer-btn-inner">
 						<a href="#" class="footer-btn">Заказать звонок</a>
+						<form class="tg-form">
+							<input type="text" class="tg-form-name" name="name">
+							<input type="text" class="tg-form-phone" name="phone">
+							<button class="tg-form-submit" type="submit">Send</button>
+							<div class="tg-form-status"></div>
+						</form>
 					</div>
 				</div>
 				<ul class="footer-social">
@@ -280,24 +287,25 @@
 							<img src="images/footer-inst.svg" alt="inst" class="">
 						</a>
 					</li>
-					<li class="footer-social-item footer-social-tg">
-						<img src="images/footer-tg.svg" alt="tg" class="footer-social-btn">
-						<form class="tg-form">
-							<input type="text" class="tg-form-name" name="name">
-							<input type="text" class="tg-form-phone" name="phone">
-							<div class="form-box">
-								<button class="tg-form-submit" type="submit">Send</button>
-								<div class="tg-form-status"></div>
-							</div>
-						</form>
-					</li>
 				</ul>
 			</div>
 		</div>
 	</footer>
 
 
-
+	<div class="popup">
+		<div class="popup__content">
+			<div class="popup__close-inner">
+				<span class="popup__close-btn">&#10006;</span>
+			</div>
+			<form class="popup__form">
+				<input class="popup__input popup__input--name" type="text" name="name" autocomplete="off" placeholder="Введите имя">
+				<input class="popup__input popup__input--phone" type="text" name="phone" autocomplete="off" placeholder="Введите телефон">
+				<button class="popup__submit">Отправить</button>
+				<div class="popup__status"></div>
+			</form>
+		</div>
+	</div>
 
 
 
